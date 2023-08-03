@@ -51,7 +51,7 @@ export default function Layout({ children, home }) {
               />
             </Link>
             <h2 className={utilStyles.headingLg}>
-              <Link href="/">
+              <Link legacyBehavior={true} href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
